@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:pages:build": "turbo run build:ci",
+    "build:pages": "turbo run build:pages",
     "dev": "turbo run dev",
     "lint:code": "turbo run lint:code",
     "lint:type": "turbo run lint:type"

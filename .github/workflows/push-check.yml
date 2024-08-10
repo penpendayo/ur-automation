@@ -24,7 +24,7 @@ jobs:
         uses: ./.github/actions/setup-workspace
 
       - name: Build
-        run: pnpm run pages:build
+        run: pnpm run build:pages
 
   lint:
     name: Lint
