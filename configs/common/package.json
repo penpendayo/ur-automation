@@ -1,0 +1,14 @@
+{
+  "name": "@ur-automation/config-common",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@agaroot/eslint-config-common": "3.0.6",
+    "@agaroot/eslint-config-definer": "1.0.5",
+    "@agaroot/eslint-config-javascript": "2.0.7",
+    "@agaroot/eslint-config-style": "2.0.7",
+    "@agaroot/eslint-config-typescript": "2.0.7",
+    "@tsconfig/strictest": "2.0.5",
+    "eslint": "8.57.0"
+  }
+}
