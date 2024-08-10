@@ -1,5 +1,5 @@
-import { config } from '@ur-automation/config-common/eslint.config.mjs';
+import { commonConfig } from '@ur-automation/config-common/eslint.config.mjs';
 
-export default config({
+export default commonConfig({
   tsconfigPath: './tsconfig.json',
 });

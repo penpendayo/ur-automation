@@ -1,6 +1,6 @@
 export const runtime = 'edge';
 
-export default function NotFound() {
+const NotFound = () => {
   return (
     <>
       <title>404: This page could not be found.</title>
@@ -21,7 +21,8 @@ export default function NotFound() {
       </div>
     </>
   );
-}
+};
+export default NotFound;
 
 const styles = {
   error: {

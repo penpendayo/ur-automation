@@ -1,0 +1,15 @@
+{
+  "name": "@ur-automation/config-react",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint:code": "eslint .",
+    "lint:type": "tsc --pretty --noEmit"
+  },
+  "devDependencies": {
+    "@agaroot/eslint-config-react": "3.0.8",
+    "@tsconfig/create-react-app": "2.0.5",
+    "@ur-automation/config-common": "workspace:*",
+    "typescript": "5.5.4"
+  }
+}

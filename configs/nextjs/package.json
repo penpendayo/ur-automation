@@ -1,0 +1,16 @@
+{
+  "name": "@ur-automation/config-nextjs",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint:code": "eslint .",
+    "lint:type": "tsc --pretty --noEmit"
+  },
+  "devDependencies": {
+    "@agaroot/eslint-config-next": "3.0.8",
+    "@tsconfig/next": "2.0.3",
+    "@ur-automation/config-common": "workspace:*",
+    "@ur-automation/config-react": "workspace:*",
+    "typescript": "5.5.4"
+  }
+}

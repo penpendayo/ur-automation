@@ -1,0 +1,39 @@
+{
+  "name": "@ur-automation/web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "build:pages": "pnpm next-on-pages",
+    "lint:code": "eslint .",
+    "lint:type": "tsc --pretty --noEmit",
+    "preview": "pnpm build:pages && wrangler pages dev",
+    "deploy": "pnpm build:pages && wrangler pages deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "1.13.2",
+    "@cloudflare/workers-types": "4.20240806.0",
+    "@tsconfig/next": "2.0.3",
+    "@types/node": "22.1.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@ur-automation/config-nextjs": "workspace:*",
+    "eslint-config-next": "14.2.5",
+    "postcss": "8.4.41",
+    "tailwindcss": "3.4.8",
+    "turbo": "2.0.12",
+    "typescript": "5.5.4",
+    "vercel": "35.2.3",
+    "wrangler": "3.69.1"
+  },
+  "packageManager": "pnpm@9.7.0"
+}

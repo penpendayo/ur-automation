@@ -4,13 +4,13 @@ import { javascript } from '@agaroot/eslint-config-javascript';
 import { style } from '@agaroot/eslint-config-style';
 import { typescript } from '@agaroot/eslint-config-typescript';
 
-export const config = define([
+export const commonConfig = define([
   common,
   javascript,
   typescript,
   style,
 ]);
 
-export default config({
+export default commonConfig({
   tsconfigPath: './tsconfig.json',
 });
