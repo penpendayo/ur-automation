@@ -6,12 +6,14 @@
   "scripts": {
     "build:pages": "turbo run build:pages",
     "dev": "turbo run dev",
+    "generate": "turbo run generate",
     "lint:code": "turbo run lint:code",
     "lint:type": "turbo run lint:type"
   },
   "devDependencies": {
     "@ur-automation/config-common": "workspace:*",
-    "turbo": "2.0.12"
+    "turbo": "2.0.12",
+    "wrangler": "3.70.0"
   },
   "packageManager": "pnpm@9.7.0"
 }
