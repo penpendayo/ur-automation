@@ -6,7 +6,7 @@ export default [
   }),
   {
     ignores: [
-      'drizzle/',
+      'migrations/',
     ],
   },
 ];

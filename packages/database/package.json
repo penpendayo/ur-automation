@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "generate": "drizzle-kit generate",
     "lint:code": "eslint .",
     "lint:type": "tsc --pretty --noEmit",
-    "migrate": "wrangler d1 migrations apply local --local"
+    "migrate": "wrangler d1 migrations apply ur-automation-db --local --config ../../wrangler.toml"
   },
   "dependencies": {
     "drizzle-orm": "0.33.0"

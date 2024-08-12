@@ -6,6 +6,7 @@
   "scripts": {
     "start": "next start",
     "dev": "next dev",
+    "generate": "pnpm run cf-typegen",
     "build": "next build",
     "build:pages": "pnpm next-on-pages",
     "lint:code": "eslint .",
@@ -15,6 +16,8 @@
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
   },
   "dependencies": {
+    "@ur-automation/database": "workspace:*",
+    "drizzle-orm": "0.33.0",
     "next": "14.2.5",
     "react": "18.3.1",
     "react-dom": "18.3.1"
