@@ -3,6 +3,7 @@ name: PR Push check
 on:
   pull_request:
     types: [opened, reopened, synchronize]
+  push:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
