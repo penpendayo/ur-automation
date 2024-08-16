@@ -6,7 +6,7 @@
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "outDir": "outDirを指定しないとエラーになるので指定している",
+    "noEmit": true,
     "lib": [
       "es2023"
     ],
