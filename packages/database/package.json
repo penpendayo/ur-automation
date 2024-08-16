@@ -7,7 +7,7 @@
   "scripts": {
     "generate": "drizzle-kit generate",
     "lint:code": "eslint .",
-    "lint:type": "tsc --pretty --noEmit",
+    "lint:type": "tsc --pretty",
     "migrate": "wrangler d1 migrations apply ur-automation-db --local --config ../../wrangler.toml"
   },
   "dependencies": {

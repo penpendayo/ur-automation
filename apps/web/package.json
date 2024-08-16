@@ -10,7 +10,7 @@
     "build": "next build",
     "build:pages": "pnpm next-on-pages",
     "lint:code": "eslint .",
-    "lint:type": "tsc --pretty --noEmit",
+    "lint:type": "tsc --pretty",
     "preview": "pnpm build:pages && wrangler pages dev",
     "deploy": "pnpm build:pages && wrangler pages deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"

@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "lint:code": "eslint .",
-    "lint:type": "tsc --pretty --noEmit"
+    "lint:type": "tsc --pretty"
   },
   "devDependencies": {
     "@agaroot/eslint-config-common": "3.0.6",
