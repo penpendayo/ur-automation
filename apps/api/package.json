@@ -8,8 +8,8 @@
     "hono": "4.5.5"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240529.0",
+    "@cloudflare/workers-types": "4.20240815.0",
     "@ur-automation/config-common": "workspace:*",
-    "wrangler": "3.57.2"
+    "wrangler": "3.72.0"
   }
 }
