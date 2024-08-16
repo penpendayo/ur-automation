@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": [
+    "@ur-automation/config-common/tsconfig.json",
+    "@tsconfig/node-lts/tsconfig.json"
+  ]
+}
