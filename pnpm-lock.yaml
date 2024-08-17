@@ -34,6 +34,12 @@ importers:
         specifier: 3.72.0
         version: 3.72.0(@cloudflare/workers-types@4.20240815.0)
 
+  apps/scraping:
+    devDependencies:
+      '@ur-automation/config-nodejs':
+        specifier: workspace:*
+        version: link:../../configs/nodejs
+
   apps/web:
     dependencies:
       '@ur-automation/database':

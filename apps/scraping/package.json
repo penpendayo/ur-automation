@@ -1,0 +1,6 @@
+{
+  "name": "@ur-automation/scraping",
+  "devDependencies": {
+    "@ur-automation/config-nodejs": "workspace:*"
+  }
+}
