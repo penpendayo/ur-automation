@@ -1,6 +1,16 @@
 {
   "name": "@ur-automation/scraping",
+  "scripts": {
+    "start:buildings": "tsx src/buildings.ts",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "playwright": "1.46.1"
+  },
   "devDependencies": {
-    "@ur-automation/config-nodejs": "workspace:*"
+    "@playwright/test": "1.46.1",
+    "@types/node": "22.3.0",
+    "@ur-automation/config-nodejs": "workspace:*",
+    "tsx": "4.17.0"
   }
 }
