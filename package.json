@@ -12,8 +12,8 @@
   },
   "devDependencies": {
     "@ur-automation/config-common": "workspace:*",
-    "turbo": "2.0.14",
-    "wrangler": "3.72.0"
+    "turbo": "2.1.2",
+    "wrangler": "3.78.10"
   },
   "packageManager": "pnpm@9.7.0"
 }
